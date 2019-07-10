@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351262780BCBAD9B032A7BE3 /* libPods-InstaCam.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05818D4EBECCD579551A1D6D /* libPods-InstaCam.a */; };
 		836F8E9022D40A61006B7FEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8E8F22D40A61006B7FEB /* AppDelegate.m */; };
 		836F8E9322D40A61006B7FEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8E9222D40A61006B7FEB /* ViewController.m */; };
 		836F8E9622D40A61006B7FEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836F8E9422D40A61006B7FEB /* Main.storyboard */; };
@@ -15,6 +16,11 @@
 		836F8E9E22D40A61006B7FEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8E9D22D40A61006B7FEB /* main.m */; };
 		836F8EA822D40A61006B7FEB /* InstaCamTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8EA722D40A61006B7FEB /* InstaCamTests.m */; };
 		836F8EB322D40A61006B7FEB /* InstaCamUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8EB222D40A61006B7FEB /* InstaCamUITests.m */; };
+		836F8EC322D41B0C006B7FEB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8EC222D41B0C006B7FEB /* LoginViewController.m */; };
+		836F8EC622D4ED7D006B7FEB /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836F8EC522D4ED7D006B7FEB /* RegisterViewController.m */; };
+		83804D5722D5587400AE62AE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83804D5622D5587400AE62AE /* HomeViewController.m */; };
+		BA6EF436796466155B8C87CA /* libPods-InstaCamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 250364ECC637648A591E0674 /* libPods-InstaCamUITests.a */; };
+		F9C811EA9EFA673F4087DFE0 /* libPods-InstaCamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06717E2CA3AC46CBDA78511A /* libPods-InstaCamTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05818D4EBECCD579551A1D6D /* libPods-InstaCam.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaCam.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06717E2CA3AC46CBDA78511A /* libPods-InstaCamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaCamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		177BC66353E0D558E5258C61 /* Pods-InstaCamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCamUITests.release.xcconfig"; path = "Target Support Files/Pods-InstaCamUITests/Pods-InstaCamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1B3EF061A0C48B7D17E34FDA /* Pods-InstaCam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCam.debug.xcconfig"; path = "Target Support Files/Pods-InstaCam/Pods-InstaCam.debug.xcconfig"; sourceTree = "<group>"; };
+		250364ECC637648A591E0674 /* libPods-InstaCamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstaCamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62CD3C2B305911BE2AAA7DB0 /* Pods-InstaCamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCamTests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCamTests/Pods-InstaCamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		657051AF2C22F53E7DEC8788 /* Pods-InstaCamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCamTests.release.xcconfig"; path = "Target Support Files/Pods-InstaCamTests/Pods-InstaCamTests.release.xcconfig"; sourceTree = "<group>"; };
+		72E79F22AC52FF3530716813 /* Pods-InstaCam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCam.release.xcconfig"; path = "Target Support Files/Pods-InstaCam/Pods-InstaCam.release.xcconfig"; sourceTree = "<group>"; };
 		836F8E8B22D40A61006B7FEB /* InstaCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836F8E8E22D40A61006B7FEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		836F8E8F22D40A61006B7FEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,13 @@
 		836F8EAE22D40A61006B7FEB /* InstaCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		836F8EB222D40A61006B7FEB /* InstaCamUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCamUITests.m; sourceTree = "<group>"; };
 		836F8EB422D40A61006B7FEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836F8EC122D41B0C006B7FEB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		836F8EC222D41B0C006B7FEB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		836F8EC422D4ED7D006B7FEB /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		836F8EC522D4ED7D006B7FEB /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		83804D5522D5587400AE62AE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		83804D5622D5587400AE62AE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B59274108B05E5435CFCE394 /* Pods-InstaCamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaCamUITests.debug.xcconfig"; path = "Target Support Files/Pods-InstaCamUITests/Pods-InstaCamUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				351262780BCBAD9B032A7BE3 /* libPods-InstaCam.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9C811EA9EFA673F4087DFE0 /* libPods-InstaCamTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA6EF436796466155B8C87CA /* libPods-InstaCamUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7CBA4F8D5EBF77378A3020C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B3EF061A0C48B7D17E34FDA /* Pods-InstaCam.debug.xcconfig */,
+				72E79F22AC52FF3530716813 /* Pods-InstaCam.release.xcconfig */,
+				62CD3C2B305911BE2AAA7DB0 /* Pods-InstaCamTests.debug.xcconfig */,
+				657051AF2C22F53E7DEC8788 /* Pods-InstaCamTests.release.xcconfig */,
+				B59274108B05E5435CFCE394 /* Pods-InstaCamUITests.debug.xcconfig */,
+				177BC66353E0D558E5258C61 /* Pods-InstaCamUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		836F8E8222D40A61006B7FEB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +122,8 @@
 				836F8EA622D40A61006B7FEB /* InstaCamTests */,
 				836F8EB122D40A61006B7FEB /* InstaCamUITests */,
 				836F8E8C22D40A61006B7FEB /* Products */,
+				7CBA4F8D5EBF77378A3020C4 /* Pods */,
+				99B3AC04412ACFF61A1CA144 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +140,7 @@
 		836F8E8D22D40A61006B7FEB /* InstaCam */ = {
 			isa = PBXGroup;
 			children = (
+				836F8EC022D41AD1006B7FEB /* View Controllers */,
 				836F8E8E22D40A61006B7FEB /* AppDelegate.h */,
 				836F8E8F22D40A61006B7FEB /* AppDelegate.m */,
 				836F8E9122D40A61006B7FEB /* ViewController.h */,
@@ -132,6 +172,29 @@
 			path = InstaCamUITests;
 			sourceTree = "<group>";
 		};
+		836F8EC022D41AD1006B7FEB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				836F8EC122D41B0C006B7FEB /* LoginViewController.h */,
+				836F8EC222D41B0C006B7FEB /* LoginViewController.m */,
+				836F8EC422D4ED7D006B7FEB /* RegisterViewController.h */,
+				836F8EC522D4ED7D006B7FEB /* RegisterViewController.m */,
+				83804D5522D5587400AE62AE /* HomeViewController.h */,
+				83804D5622D5587400AE62AE /* HomeViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		99B3AC04412ACFF61A1CA144 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05818D4EBECCD579551A1D6D /* libPods-InstaCam.a */,
+				06717E2CA3AC46CBDA78511A /* libPods-InstaCamTests.a */,
+				250364ECC637648A591E0674 /* libPods-InstaCamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836F8EB722D40A61006B7FEB /* Build configuration list for PBXNativeTarget "InstaCam" */;
 			buildPhases = (
+				3954949E6CF845E21EAAF35F /* [CP] Check Pods Manifest.lock */,
 				836F8E8722D40A61006B7FEB /* Sources */,
 				836F8E8822D40A61006B7FEB /* Frameworks */,
 				836F8E8922D40A61006B7FEB /* Resources */,
+				1DD379316E1CD7540B125FC2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836F8EBA22D40A61006B7FEB /* Build configuration list for PBXNativeTarget "InstaCamTests" */;
 			buildPhases = (
+				27036069C56B80B6EBD6ACE6 /* [CP] Check Pods Manifest.lock */,
 				836F8E9F22D40A61006B7FEB /* Sources */,
 				836F8EA022D40A61006B7FEB /* Frameworks */,
 				836F8EA122D40A61006B7FEB /* Resources */,
@@ -174,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836F8EBD22D40A61006B7FEB /* Build configuration list for PBXNativeTarget "InstaCamUITests" */;
 			buildPhases = (
+				F71489139F0E86C96B88033D /* [CP] Check Pods Manifest.lock */,
 				836F8EAA22D40A61006B7FEB /* Sources */,
 				836F8EAB22D40A61006B7FEB /* Frameworks */,
 				836F8EAC22D40A61006B7FEB /* Resources */,
@@ -257,14 +324,103 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1DD379316E1CD7540B125FC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCam/Pods-InstaCam-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaCam/Pods-InstaCam-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaCam/Pods-InstaCam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27036069C56B80B6EBD6ACE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3954949E6CF845E21EAAF35F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71489139F0E86C96B88033D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaCamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		836F8E8722D40A61006B7FEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				836F8EC622D4ED7D006B7FEB /* RegisterViewController.m in Sources */,
+				836F8EC322D41B0C006B7FEB /* LoginViewController.m in Sources */,
 				836F8E9322D40A61006B7FEB /* ViewController.m in Sources */,
 				836F8E9E22D40A61006B7FEB /* main.m in Sources */,
 				836F8E9022D40A61006B7FEB /* AppDelegate.m in Sources */,
+				83804D5722D5587400AE62AE /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +589,11 @@
 		};
 		836F8EB822D40A61006B7FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B3EF061A0C48B7D17E34FDA /* Pods-InstaCam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6892GKH9V;
 				INFOPLIST_FILE = InstaCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +607,11 @@
 		};
 		836F8EB922D40A61006B7FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72E79F22AC52FF3530716813 /* Pods-InstaCam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y6892GKH9V;
 				INFOPLIST_FILE = InstaCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +625,7 @@
 		};
 		836F8EBB22D40A61006B7FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62CD3C2B305911BE2AAA7DB0 /* Pods-InstaCamTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +644,7 @@
 		};
 		836F8EBC22D40A61006B7FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657051AF2C22F53E7DEC8788 /* Pods-InstaCamTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +663,7 @@
 		};
 		836F8EBE22D40A61006B7FEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B59274108B05E5435CFCE394 /* Pods-InstaCamUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaCamUITests/Info.plist;
@@ -518,6 +681,7 @@
 		};
 		836F8EBF22D40A61006B7FEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 177BC66353E0D558E5258C61 /* Pods-InstaCamUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = InstaCamUITests/Info.plist;

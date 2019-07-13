@@ -46,7 +46,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/HoPc5r1ZUj' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -65,6 +65,7 @@ List an 3rd party libraries, icons, graphics, or other assets you used in your a
 - Did a better job of utilizing my resources more. 
 - Need to touch up more on segue and transitioning between differene view controllers. 
 - Use of a profile and camera will come in handy for app project. 
+- The images on the timeline are a greater size than they should, can cover over some of the layout. Had trouble with incorporating resize image method.
 ## License
 
 Copyright [2019] [Camryn Belcher]
